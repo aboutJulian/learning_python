@@ -6,3 +6,5 @@ Projects that I have already completed:
     HelloWorld.py (Hello World)
 
     Cooking_Lasagna.py (A project to learn using functions with user inputs)
+    
+    Football_Tournament.py(My current project in which im learning classes and objects)
