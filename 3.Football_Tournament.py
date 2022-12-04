@@ -83,21 +83,22 @@ def printStaminaAndSkill(pTeam, pPlayer):
     Player = searchingForPlayerInTeam(Team, str(pPlayer))
     print(Player.nameOfPlayer + " has a skill level of " + str(Player.skill_level) + " and a stamina of " + str(Player.stamina) + ".")
 
+def getRandomTeam():
+    return ListOfTeams[random.randrange(start=1, stop=int(ListOfTeams.count)+1)].nameOfTeam
+    
+def 
+
+
+def startGame(pTeams):
+    creatingAllTeams(pTeams)
+    print("What do you wanna do?")
 
 
 
-user_input = input("How many teams do you want? ")
-user_input = int(user_input)
-creatingAllTeams(user_input)
-user_input2 = input("Which Team would you like to print? ")
-user_input2 = str(user_input2)
-printAllPlayersOfTeam(user_input2)
 
-user_input3 = input("Which Team do you choose? ")
-user_input3 = str(user_input3)
-user_input4 = input("Which Player do you want? ")
-user_input4 = str(user_input4)
-printStaminaAndSkill(user_input3, user_input4)
+
+
+
 
 
 
